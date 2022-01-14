@@ -163,17 +163,22 @@ i = 반복 횟수
 
 i = 1
     1 XOR X + 2 * 1 = 60
-    60 - 2 = 5E XOR 1 = 5F = X;
+    
+	X = (n번째의 값 - 2 * i) XOR i
+    X = (60 - 2) XOR 1
 
 .
 .
 .
- 
+
+i 가 10 이상부터 16진수와 값이 달라진다.
+    2 * i 의 값은 10진수 이므로 16진수로 바꿔준다.
+    XOR i 부분의 i도 10진수 이므로 16진수로 바꿔준다.
 i = 10 = A
     10 XOR X + 2 * 10 = 69
-    A XOR X + 20 = 69
-    A XOR X + 14 = 69 // 16진수로 바꿔준다.
-    69 - 14 = 55 XOR A = 5F
+    10 XOR X + 20 = 69
+    A XOR X + 14 = 69 //10진수를 16진수로 바꿔준다.
+    X = (69 - 14) XOR A = 5F
 ```
 
 이렇게 식으로 23개의 16진수 값을 구하였다.
@@ -187,6 +192,8 @@ i = 10 = A
 ASCII 값은 
 
 I_am_X0_xo_Xor_eXcit1ng 이다.
+
+00은 공백이다. 엔터를 치고 돌렸을 때랑 g 까지만 입력하고 돌렸을 때는 똑같다.
 
 ![chall50](https://raw.githubusercontent.com/sosouni14/image_server/main/image_rev/chall50.PNG)
 
