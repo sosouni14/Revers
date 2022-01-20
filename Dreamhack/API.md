@@ -243,3 +243,9 @@ HDC BeginPaint(
 `Beginpaint` 는 지워지지 않도록 `EndPoint` 함수를 불러오기 때문에 캐럿을 화면에 복원하고 영역을 해제한다.
 
 `PAINTSTRUCT` : 페인팅, 그림에 사용되는 구조체이다.
+
+
+
+> 참고
+>
+> 리버싱 핵심 원리
