@@ -10,7 +10,7 @@
 
 ---
 
-![CPU](https://i.postimg.cc/d1yzJkF2/CPU.png)
+![CPU](https://raw.githubusercontent.com/sosouni14/image_server/main/image_rev/CPU.png)
 
 
 
@@ -66,13 +66,13 @@ CPU와 연결되어 있어서 연산속도가 빠른 고속메모리라고 불�
 
 
 
-![EAX](https://i.postimg.cc/zXj4DYsc/Register.png)
+![EAX](https://raw.githubusercontent.com/sosouni14/image_server/main/image_rev/Register.png)
 
 ​									상수 /주소 등을 주로 저장할때 사용. 크기 = 32bit(4byte)
 
 ---
 
-![AX](https://i.postimg.cc/jdZk0QNV/EAX.png)
+![AX](https://raw.githubusercontent.com/sosouni14/image_server/main/image_rev/EAX.png)
 
 32bit 모두 사용시 – EAX /EBX /ECX /EDX
 
