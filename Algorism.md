@@ -60,8 +60,6 @@ CALL 부분이 4번 돌면서 마지막 EBP-88 부분을 보면 UNICODE"aaaa" �
 
 
 
-
-
 > 참고 사이트
 >
 > [Crackme2](https://blog.naver.com/hungjaksm/40201426563)
