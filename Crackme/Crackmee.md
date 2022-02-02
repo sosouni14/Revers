@@ -361,3 +361,8 @@ name의 2번째 문자를 받아서 암호화 한 것을 볼 수 있다.
 **40327B CALL vbaVarCat** 이 부분을 지나면서 암호화가 하나씩 생성된 것이 이어지는 것을 확인할 수 있다.
 
 ![35](https://raw.githubusercontent.com/sosouni14/image_server/main/image_rev/35.PNG)
+
+
+
+
+
