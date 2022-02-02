@@ -29,25 +29,25 @@ int main(int argc, char* argv[])
 
 ###### 파일 실행 메인 화면
 
-[![stackmain.png](https://i.postimg.cc/fLqFSb1L/stackmain.png)](https://postimg.cc/r0WgvqVX)
+![stackmain.png](https://raw.githubusercontent.com/sosouni14/image_server/main/image_rev/stackmain.png)
 
 ---
 
 ###### 코드의 흐름 순서 1
 
-[![stack1.png](https://i.postimg.cc/QMqNPvyD/stack1.png)](https://postimg.cc/p9pt5cvc)
+![stack1.png](https://raw.githubusercontent.com/sosouni14/image_server/main/image_rev/stack1.png)
 
 
 
 ###### 코드의 흐름 순서 2
 
-[![stack2.png](https://i.postimg.cc/CL7vR5DV/stack2.png)](https://postimg.cc/hfJ8wSpC)
+![stack2.png](https://raw.githubusercontent.com/sosouni14/image_server/main/image_rev/stack2.png)
 
 
 
 ###### 코드의 흐름 순서 3
 
-[![stack3.png](https://i.postimg.cc/gkgDY5Fz/stack3.png)](https://postimg.cc/8jrW4Zz9)
+![stack3.png](https://raw.githubusercontent.com/sosouni14/image_server/main/image_rev/stack3.png)
 
 C++의 코드 흐름이 이 순서대로 진행된다.
 
@@ -57,7 +57,7 @@ C++의 코드 흐름이 이 순서대로 진행된다.
 
 #### 코드의 흐름 순서 1
 
-[![stack1.png](https://i.postimg.cc/QMqNPvyD/stack1.png)](https://postimg.cc/p9pt5cvc)
+![stack1.png](https://raw.githubusercontent.com/sosouni14/image_server/main/image_rev/stack1.png)
 
 
 
@@ -101,7 +101,7 @@ C++의 코드 흐름이 이 순서대로 진행된다.
 
 #### 코드 흐름 순서 2
 
-[![stack2.png](https://i.postimg.cc/CL7vR5DV/stack2.png)](https://postimg.cc/hfJ8wSpC)
+![stack2.png](https://raw.githubusercontent.com/sosouni14/image_server/main/image_rev/stack2.png)
 
 401000 - `PUSH EBP` : main() 함수에서 사용된 EBP 값을 스택에 넣는다.
 
@@ -133,7 +133,7 @@ C++의 코드 흐름이 이 순서대로 진행된다.
 
 #### 코드 흐름 순서 3
 
-[![stack3.png](https://i.postimg.cc/gkgDY5Fz/stack3.png)](https://postimg.cc/8jrW4Zz9)
+![stack3.png](https://raw.githubusercontent.com/sosouni14/image_server/main/image_rev/stack3.png)
 
 
 
