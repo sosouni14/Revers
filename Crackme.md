@@ -39,7 +39,7 @@ int main()
 
 ###### Main Srceen
 
-![crackmain](https://i.postimg.cc/7L9J4X9r/crackmain.png)
+![crackmain](https://raw.githubusercontent.com/sosouni14/image_server/main/image_rev/crackmain.png)
 
 처음 보이는 파일 화면이다.
 
@@ -57,7 +57,7 @@ MessageBoxA 가 총 3개 있는게 보인다. EP에 있는 메시지는 프로�
 
 
 
-![crackre](https://i.postimg.cc/wMrsPVzc/crackre.png)
+![crackre](https://raw.githubusercontent.com/sosouni14/image_server/main/image_rev/crackre.png)
 
 ESI가 401000 으로 EP 이다.  첫번째 MessageBoxA의 안에서 ESI = FFFFFFFF 로 세팅되어 있다.
 
@@ -65,7 +65,7 @@ ESI가 401000 으로 EP 이다.  첫번째 MessageBoxA의 안에서 ESI = FFFFFF
 
 ###### GetDriveType
 
-![crack3](https://i.postimg.cc/KvR8BQmQ/crack3.png)
+![crack3](https://raw.githubusercontent.com/sosouni14/image_server/main/image_rev/crack3.png)
 
 GetDriveType 의 함수가 끝나면서 EAX 값이 3이 된 것을 볼 수 있다.
 
@@ -89,7 +89,7 @@ EAX 값이 3인 이유는 드라이브의 고정된 미디어가 있으므로 �
 
 ###### INC & DEC
 
-![crack5](https://i.postimg.cc/1XTPvhyB/crack5.png)
+![crack5](https://raw.githubusercontent.com/sosouni14/image_server/main/image_rev/crack5.png)
 
 INC(Increase) 값을 1증가, DEC(Decrease) 값을 1 감소 시킨다.
 
@@ -99,7 +99,7 @@ CMP 로 비교문 전까지 ESI = 3 이며 EAX는 1인 것을 계산할 수 있�
 
 ###### EAX 와 ESI 값
 
-![crack4](https://i.postimg.cc/RFRjDrLf/crack4.png)
+![crack4](https://raw.githubusercontent.com/sosouni14/image_server/main/image_rev/crack4.png)
 
 INC 와 DEC 를 만나면서 EAX 와 ESI 값이 달리지는 것을 확인 할 수 있다.
 
@@ -107,7 +107,7 @@ INC 와 DEC 를 만나면서 EAX 와 ESI 값이 달리지는 것을 확인 할 �
 
 ###### JE
 
-![JE](https://i.postimg.cc/zGP5mcHg/crack6.png)
+![JE](https://raw.githubusercontent.com/sosouni14/image_server/main/image_rev/crack6.png)
 
 CMP 에서 EAX 와 ESI 가 같을 경우를 비교하고
 
@@ -125,13 +125,13 @@ CMP 비교 두개의 값이 동일하면 SUB 결과는 0이고 ZF는 1이 된다
 
 CMP 문을 JMP로 바꾸어서 40103D로 가게 만든다.
 
-![jmp](https://i.postimg.cc/SxDyVKGk/jmp.png)
+![jmp](https://raw.githubusercontent.com/sosouni14/image_server/main/image_rev/jmp.png)
 
 JMP문을 만나서 바로 40103D 로 들어간 것을 볼 수 있다. 그 이후 실행했을때
 
 성공의 MessageBoxA가 나오는 것을 확인 할 수 있다.
 
-![yeah](https://i.postimg.cc/B6V9khYv/yeah.png)
+![yeah](https://raw.githubusercontent.com/sosouni14/image_server/main/image_rev/yeah.png)
 
 
 
@@ -139,7 +139,7 @@ JMP문을 만나서 바로 40103D 로 들어간 것을 볼 수 있다. 그 이�
 
 CMP 에서 비교를 하는데 그 전에 EAX 값과 ESI 값을 공백으로 만든다.
 
-![nop](https://i.postimg.cc/J7qwJzcq/nop.png)
+![nop](https://raw.githubusercontent.com/sosouni14/image_server/main/image_rev/nop.png)
 
 이렇게 NOP 명령어를 넣어서 CMP 명령어에서 EAX, ESI 값이 같다는 것으로 알고
 
@@ -153,13 +153,13 @@ JE 명령어에서 40103D로 넘어갈 수 있게 만든다.
 
 그러면 우리는 EAX 값을 의도적으로 5로 바꾸어서 CMP 명령어를 만나기 전까지 모든 명령어를 다 실행했을 경우 EAX와 ESI 값을 같게 만들어준다.
 
-![EAX5](https://i.postimg.cc/7Pm7fjhR/EAX5.png)*
+![EAX5](https://raw.githubusercontent.com/sosouni14/image_server/main/image_rev/EAX5.png)*
 
 의도적으로 EAX 값을 5로 고쳐서 실행하게 만든다.
 
 CMP 명령어를 만나기전까지 EAX 값과 ESI 가 같다는 것을 볼 수 있다.
 
-![EAX=ESI](https://i.postimg.cc/fTdw60Gv/EAX-ESI.png)
+![EAX=ESI](https://raw.githubusercontent.com/sosouni14/image_server/main/image_rev/EAX-ESI.png)
 
 EAX = ESI 이므로 CMP 명령어에서 ZF = 1 이므로 JE 명령어에서 true가 되어서 40103D 로 간다.
 
