@@ -130,6 +130,8 @@ Name 과 Serial 에 입력한 값들이 보인다.
 
 
 
+
+
 > 참고 사이트
 >
 > [Crackme2](https://blog.naver.com/hungjaksm/40201288214)
