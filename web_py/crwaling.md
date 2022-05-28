@@ -90,13 +90,13 @@ for i in titles:
 
 
 
-![image-20220523022411986](C:\Users\jkn\AppData\Roaming\Typora\typora-user-images\image-20220523022411986.png)
+![image-20220523022411986](C:/Users/jkn/AppData/Roaming/Typora/typora-user-images/image-20220523022411986.png)
 
 **url1** 를 이용해서 키워드를 입력하지 않고 엔터를 칠 경우 **url1** 에 있는 것들이 출력된다.
 
 
 
-![image-20220523022525324](C:\Users\jkn\AppData\Roaming\Typora\typora-user-images\image-20220523022525324.png)
+![image-20220523203942174](image/image-20220523203942174.png)
 
 
 
